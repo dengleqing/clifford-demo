@@ -1,0 +1,30 @@
+.icon{
+    display: inline-block;
+    zoom:1;
+
+}
+
+@mixin background($w:24px,$h:24px,$b:"../slice/icon_switch-off.png"){
+	background-image:url($b);
+	width:$w;
+	height:$h;
+}
+
+.icon_switch-off{
+	@include background(71px,29px,"../slice/icon_switch-off.png");
+}
+.icon_switch-on{
+	@include background(71px,29px,"../slice/icon_switch-on.png");
+}
+.icon_tip-error{
+	@include background(24px,24px,"../slice/icon_tip-error.png");
+}
+.icon_tip-ok{
+	@include background(24px,24px,"../slice/icon_tip-ok.png");
+}
+.icon_tip-warn{
+	@include background(24px,24px,"../slice/icon_tip-warn.png");
+}
+.icon_wait{
+	@include background(14px,14px,"../slice/icon_wait.png?v=1234");
+}

@@ -1,0 +1,79 @@
+.icon {
+  display: inline-block;
+  zoom: 1;
+}
+
+.icon_switch-off {
+  background-position: 0 0;
+  width: 71px;
+  height: 29px;
+}
+
+.icon_switch-on {
+  background-position: 0 -31px;
+  width: 71px;
+  height: 29px;
+}
+
+.icon_tip-error {
+  background-position: 0 -62px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon_tip-ok {
+  background-position: -26px -62px;
+  width: 24px;
+  height: 24px;
+}
+
+.icon_tip-warn {
+  background-position: -73px 0;
+  width: 24px;
+  height: 24px;
+}
+
+.icon_wait {
+  background-position: -73px -26px;
+  width: 14px;
+  height: 14px;
+}
+
+/*# sourceMappingURL=icon.css.map */
+
+
+/* ../../../static/images/icon.png?20160106090210 */
+.icon_switch-off,
+.icon_switch-on,
+.icon_tip-error,
+.icon_tip-ok,
+.icon_tip-warn,
+.icon_wait{
+background-image: url(../../../static/images/icon.png?20160106090210);
+}
+
+
+/* ../../../static/images/icon@2x.png?20160106090210 */
+@media only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi), only screen and (min-resolution: 2dppx) {
+.icon_tip-error,
+.icon_tip-ok,
+.icon_tip-warn,
+.icon_wait{
+background-image: url(../../../static/images/icon@2x.png?20160106090210);
+background-size: 49px auto;
+}
+.icon_tip-error{
+background-position: 0 0;
+}
+.icon_tip-ok{
+background-position: -25px 0;
+}
+.icon_tip-warn{
+background-position: 0 -25px;
+}
+.icon_wait{
+background-position: -25px -25px;
+} 
+}
+
+.css_stamp{ content:"20160106090210";}
