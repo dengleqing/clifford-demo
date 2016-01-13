@@ -6,14 +6,16 @@
     <link rel="stylesheet" href="/static/css/icon/icon.sprite.css"/>
     <title>grunt-css-sprite Test</title>
     <script>
-    	var html = document.querySelector("html");
-    	var rem,oW = html.offsetWidth;
-    	if(oW>=640){
-    		rem = 100;
-    	}else{
-    		rem = oW/6.4;
-    	}
-    	html.style.fontSize = rem + "px";
+        var html = document.querySelector("html");
+        var rem,oW = html.offsetWidth;
+        rem = oW>=640?100:oW/6.4;
+        //if(oW>=640){
+        //  rem = 100;
+        //}else{
+        //  rem = oW/6.4;
+        //}
+        
+        html.style.fontSize = rem + "px";
     </script>
 </head>
 <body>
