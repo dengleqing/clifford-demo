@@ -42,24 +42,24 @@
 /*# sourceMappingURL=icon.css.map */
 
 
-/* ../../../static/images/icon.png?20160106090210 */
+/* ../../../static/images/icon.png?20160301164553 */
 .icon_switch-off,
 .icon_switch-on,
 .icon_tip-error,
 .icon_tip-ok,
 .icon_tip-warn,
 .icon_wait{
-background-image: url(../../../static/images/icon.png?20160106090210);
+background-image: url(../../../static/images/icon.png?20160301164553);
 }
 
 
-/* ../../../static/images/icon@2x.png?20160106090210 */
+/* ../../../static/images/icon@2x.png?20160301164553 */
 @media only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi), only screen and (min-resolution: 2dppx) {
 .icon_tip-error,
 .icon_tip-ok,
 .icon_tip-warn,
 .icon_wait{
-background-image: url(../../../static/images/icon@2x.png?20160106090210);
+background-image: url(../../../static/images/icon@2x.png?20160301164553);
 background-size: 49px auto;
 }
 .icon_tip-error{
@@ -76,4 +76,4 @@ background-position: -25px -25px;
 } 
 }
 
-.css_stamp{ content:"20160106090210";}
+.css_stamp{ content:"20160301164553";}
